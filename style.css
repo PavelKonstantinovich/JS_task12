@@ -1,0 +1,28 @@
+.widget {
+  max-width: 420px;
+  margin: 0 auto;
+
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.widget-header {
+  padding: 1rem;
+  background-color: #20c997;
+  color: white;
+}
+
+.widget-body__item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  background-color: #a6f8df;
+  border-bottom: 1px solid #20c997;
+
+  padding: 0.5rem 1rem;
+}
+
+.description {
+  text-transform: capitalize;
+}
